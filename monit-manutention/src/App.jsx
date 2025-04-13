@@ -1,5 +1,5 @@
 import "./App.css";
-import Background from "./components/Background";
+import MainContent from "./components/MainContent";
 import Sidebar from "./components/Sidebar";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <Sidebar />
       </div>
       <div className="body">
-        <Background />
+        <MainContent />
       </div>
     </div>
   );
