@@ -1,0 +1,32 @@
+.search {
+  margin: 60px 0;
+}
+
+.button-buscar {
+  margin: 15px 40px;
+  padding: 5px 80px;
+  transition: 1s 1ms;
+  border: none;
+  background-color: rgb(225, 225, 225);
+  color: black;
+}
+
+.button-buscar:hover {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(80, 99, 93);
+}
+
+.menu button {
+  margin: 15px 35px;
+  padding: 6px 10px;
+  transition: 1s 1ms;
+  border: none;
+  background-color: rgb(60, 119, 99);
+}
+
+.menu button:hover {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(36, 73, 61);
+}

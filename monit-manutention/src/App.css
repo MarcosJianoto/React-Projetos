@@ -1,0 +1,36 @@
+.principal {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.sidebar {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  left: 2vh;
+  top: 2vh;
+  width: 15%;
+  height: 93vh;
+  border-radius: 20px;
+  background-color: rgb(65, 58, 58);
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.body {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  right: 2vh;
+  top: 2vh;
+  width: 78.5%;
+  height: 93vh;
+  border-radius: 20px;
+  border: white solid 1px;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
