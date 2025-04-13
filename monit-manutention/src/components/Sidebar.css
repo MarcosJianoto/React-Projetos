@@ -3,8 +3,9 @@
 }
 
 .button-buscar {
+  font-size: 20px;
   margin: 15px 40px;
-  padding: 5px 80px;
+  padding: 10px 80px;
   transition: 1s 1ms;
   border: none;
   background-color: rgb(225, 225, 225);
@@ -18,8 +19,9 @@
 }
 
 .menu button {
-  margin: 15px 35px;
-  padding: 6px 10px;
+  font-size: 20px;
+  margin: 10px 20px;
+  padding: 10px 20px;
   transition: 1s 1ms;
   border: none;
   background-color: rgb(60, 119, 99);

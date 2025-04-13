@@ -3,7 +3,9 @@ import Categorias from "./sections/Categorias";
 import Equipments from "./sections/Equipments";
 import HistoryManutentions from "./sections/HistoryManutentions";
 import ModelsEquipments from "./sections/ModelsEquipments";
+import UpcomingMaintenances from "./sections/UpcomingMaintenances";
 import Report from "./sections/Report";
+import DashboardSumary from "./sections/DashboardSumary";
 
 const MainContent = () => {
   return (
@@ -13,12 +15,12 @@ const MainContent = () => {
       </div>
       <div className="section-box">
         <div>
-          <ModelsEquipments />
+          <Equipments />
         </div>
       </div>
       <div className="section-box">
         <div>
-          <Equipments />
+          <ModelsEquipments />
         </div>
       </div>
       <div className="section-box">
@@ -29,6 +31,16 @@ const MainContent = () => {
       <div className="section-box">
         <div>
           <Report />
+        </div>
+      </div>
+      <div className="section-box">
+        <div>
+          <UpcomingMaintenances />
+        </div>
+      </div>
+      <div className="section-box">
+        <div>
+          <DashboardSumary />
         </div>
       </div>
     </div>
