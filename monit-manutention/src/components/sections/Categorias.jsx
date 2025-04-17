@@ -6,8 +6,6 @@ const Categorias = () => {
         <li>categoria 1</li>
         <li>categoria 1</li>
         <li>categoria 1</li>
-        <li>categoria 1</li>
-        <li>categoria 1</li>
       </ul>
     </div>
   );
