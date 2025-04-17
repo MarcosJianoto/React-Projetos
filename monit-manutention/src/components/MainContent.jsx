@@ -10,24 +10,6 @@ import DashboardSumary from "./sections/DashboardSumary";
 const MainContent = () => {
   return (
     <div className="background-container">
-      <div className="section-box-categories">
-        <Categorias />
-      </div>
-      <div className="section-box">
-        <div>
-          <Equipments />
-        </div>
-      </div>
-      <div className="section-box">
-        <div>
-          <ModelsEquipments />
-        </div>
-      </div>
-      <div className="section-box">
-        <div>
-          <HistoryManutentions />
-        </div>
-      </div>
       <div className="section-box">
         <div>
           <Report />

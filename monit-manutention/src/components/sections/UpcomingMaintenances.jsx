@@ -22,6 +22,12 @@ const UpcomingMaintenances = () => {
           <li>categoria 1</li>
         </ul>
       </div>
+      <div>
+        <ul>
+          <li>categoria 1</li>
+          <li>categoria 1</li>
+        </ul>
+      </div>
     </div>
   );
 };
