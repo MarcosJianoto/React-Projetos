@@ -1,9 +1,7 @@
-import React from "react";
-
-const DashboardSumary = () => {
+const Diary = () => {
   return (
     <div>
-      <h2>RESUMO GERAL</h2>
+      <h2>DIÁRIO</h2>
       <ul>
         <li>categoria 1</li>
         <li>categoria 1</li>
@@ -15,4 +13,4 @@ const DashboardSumary = () => {
   );
 };
 
-export default DashboardSumary;
+export default Diary;

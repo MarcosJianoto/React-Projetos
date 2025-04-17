@@ -3,7 +3,7 @@ import React from "react";
 const UpcomingMaintenances = () => {
   return (
     <div>
-      <h2>Manutenções próximas</h2>
+      <h2>MANUTENÇÕES PRÓXIMAS</h2>
       <div>
         <ul>
           <li>categoria 1</li>

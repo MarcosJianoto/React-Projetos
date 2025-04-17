@@ -20,13 +20,14 @@
 }
 
 .body {
+  border: white solid 1px;
   margin: 0 auto;
   padding: 0;
   display: flex;
   position: fixed;
   right: 2vh;
   top: 2vh;
-  width: 78.5%;
+  width: 74%;
   height: 93vh;
   border-radius: 20px;
   flex-direction: column;

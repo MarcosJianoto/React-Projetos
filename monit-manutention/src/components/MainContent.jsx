@@ -1,15 +1,35 @@
 import "./MainContent.css";
-import Categorias from "./sections/Categorias";
-import Equipments from "./sections/Equipments";
-import HistoryManutentions from "./sections/HistoryManutentions";
-import ModelsEquipments from "./sections/ModelsEquipments";
 import UpcomingMaintenances from "./sections/UpcomingMaintenances";
 import Report from "./sections/Report";
 import DashboardSumary from "./sections/DashboardSumary";
+import Diary from "./sections/Diary";
+import Week from "./sections/Week";
+import Month from "./sections/Month";
+import Year from "./sections/Year";
 
 const MainContent = () => {
   return (
     <div className="background-container">
+      <div className="section-box">
+        <div>
+          <Diary />
+        </div>
+      </div>
+      <div className="section-box">
+        <div>
+          <Week />
+        </div>
+      </div>
+      <div className="section-box">
+        <div>
+          <Month />
+        </div>
+      </div>
+      <div className="section-box">
+        <div>
+          <Year />
+        </div>
+      </div>
       <div className="section-box">
         <div>
           <Report />
