@@ -11,6 +11,13 @@ const DashboardSumary = () => {
         <li>categoria 1</li>
         <li>categoria 1</li>
       </ul>
+      <ul>
+        <li>categoria 1</li>
+        <li>categoria 1</li>
+        <li>categoria 1</li>
+        <li>categoria 1</li>
+        <li>categoria 1</li>
+      </ul>
     </div>
   );
 };
