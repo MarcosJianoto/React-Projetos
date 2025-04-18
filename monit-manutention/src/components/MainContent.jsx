@@ -6,6 +6,7 @@ import Diary from "./sections/Diary";
 import Week from "./sections/Week";
 import Month from "./sections/Month";
 import Year from "./sections/Year";
+import Total from "./sections/Total";
 
 const MainContent = () => {
   return (
@@ -28,6 +29,11 @@ const MainContent = () => {
       <div className="section-box">
         <div>
           <Year />
+        </div>
+      </div>
+      <div className="section-box-total">
+        <div>
+          <Total />
         </div>
       </div>
       <div className="section-box">
